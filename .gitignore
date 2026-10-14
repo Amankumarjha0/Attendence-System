@@ -1,0 +1,40 @@
+# Environment & Secrets
+.env
+.env.*
+.env.example
+*.env
+
+# Python Virtual Environments & Packages
+.venv/
+venv/
+env/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Assignment instructions & proprietary materials (do not post publicly)
+PROBLEM_STATEMENT.docx
+goal.md
+*.docx
+
+# Local testing & scratch scripts
+seed_dummy_data.py
+verify_db.py
+*.log
+
+# Editor & IDE artifacts
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
